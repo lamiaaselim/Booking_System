@@ -6,6 +6,7 @@
   - [Table of Contents](#table-of-contents)
   - [Key Features](#key-features)
     - [Feature 1: Flight Search \& Comparison](#feature-1-flight-search--comparison)
+    - [Overview](#overview)
     - [Feature 2: Hotel Browsing \& Booking](#feature-2-hotel-browsing--booking)
     - [Feature 3: Payment \& Checkout](#feature-3-payment--checkout)
     - [Feature 4: Notification System](#feature-4-notification-system)
@@ -23,6 +24,11 @@ This booking system is a comprehensive travel platform that enables users to sea
 ## Key Features
 
 ### Feature 1: Flight Search & Comparison
+
+### Overview
+
+![Flight Search Wireframe](./images/UI_Wireframes/Flight_Search_Comparison.png)
+*Fig 1.1 - Flight search interface with comparison panel*
 
 **Description:**  
 Enables users to search for available flights between two destinations on specific dates and compare results by price, duration, layovers, and airline.
