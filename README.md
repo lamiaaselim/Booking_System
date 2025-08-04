@@ -36,6 +36,8 @@ This booking system is a comprehensive travel platform that enables users to sea
 ![Flight Search Wireframe](./images/UI_Wireframes/Flight_Search_Comparison.png)
 *Fig 1.1 - Flight search interface with comparison panel*
 
+---
+
 **Description:**  
 Enables users to search for available flights between two destinations on specific dates and compare results by price, duration, layovers, and airline.
 
@@ -90,8 +92,10 @@ Enables users to search for available flights between two destinations on specif
 
 #### Feature 2 Live Design Preview
 
-![Hotel Booking Wireframe](./images/UI_Wireframes/Hotel_Browsing_Booking.png)  
+![Hotel Booking Wireframe](./images/UI_Wireframes/Hotel_Browsing_Booking-01.png)  
 *Fig 2.1 - Hotel listing with room selection modal*
+
+---
 
 **Description:**  
 Allows users to explore available hotels based on location, travel dates, price, and rating, and to complete bookings securely through the platform.
@@ -139,6 +143,8 @@ Allows users to explore available hotels based on location, travel dates, price,
 ![Payment Wireframe](./images/UI_Wireframes/Payment_Checkout.png)  
 *Fig 3.1 - Multi-step checkout process with payment options*
 
+---
+
 **Description:**  
 Handles secure and seamless checkout for flights, hotels, and rentals using multiple payment options and proper validation.
 
@@ -180,6 +186,8 @@ Handles secure and seamless checkout for flights, hotels, and rentals using mult
 
 ![Notifications Wireframe](./images/UI_Wireframes/Notification_System.png)  
 *Fig 4.1 - Notification center with filter options*
+
+---
 
 **Description:**  
 Notifies users in real-time about booking updates, deals, and critical system alerts through multiple channels.
@@ -223,6 +231,8 @@ Notifies users in real-time about booking updates, deals, and critical system al
 
 ![Favorites Wireframe](./images/UI_Wireframes/Favorites_Saved_Trips.png)  
 *Fig 5.1 - Saved items gallery with trip organizer*
+
+---
 
 **Description:**  
 Enables users to save favorite destinations, airlines, hotels, or full trip plans for quicker access and future booking.
@@ -299,6 +309,8 @@ Provides users with access to their past and upcoming bookings, including the ab
 
 ![Admin Dashboard Wireframe](./images/UI_Wireframes/Admin_Dashboard-02.png)  
 *Fig 7.1 - Administrative analytics and user management*
+
+---
 
 **Description:**  
 A centralized control panel for administrators to manage users, providers, bookings, content, and system analytics.
