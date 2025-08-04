@@ -12,6 +12,7 @@
     - [Feature 5: Favorites \& Saved Trips](#feature-5-favorites--saved-trips)
     - [Feature 6: Order History \& Booking Management](#feature-6-order-history--booking-management)
     - [Feature 7: Admin Dashboard](#feature-7-admin-dashboard)
+  - [Database Documentation](#database-documentation)
   - [System Requirements](#system-requirements)
   - [Getting Started](#getting-started)
   - [For Registered Users](#for-registered-users)
@@ -288,6 +289,11 @@ A centralized control panel for administrators to manage users, providers, booki
 
 - Admin actions must be permission-based
 - Sensitive actions (e.g., refund approvals) require multi-level confirmation
+
+## Database Documentation
+
+For full database schema and relationships, see:  
+📂 [DB.md](./DB.md)  
 
 ## System Requirements
 
