@@ -15,14 +15,19 @@ Table User {
   createdAt     timestamp
   updatedAt     timestamp
 }
-Role Management
-sql
+```
+
+### Role Management
+
+```sql
 Table Role {
   roleId     integer       [primary key]
   name       varchar(50)   [unique] // Admin, Customer, Support
   createdAt  timestamp
 }
+```
 
+```sql
 Table UserRole {
   userRoleId  integer     [primary key]
   userId      integer
@@ -33,8 +38,11 @@ Table UserRole {
     (userId, roleId) [unique]
   }
 }
-Airport & City Lookup
-sql
+```
+
+### Airport & City Lookup
+
+```sql
 Table City {
   cityId     integer       [primary key]
   name       varchar(100)
@@ -47,8 +55,11 @@ Table Airport {
   code          varchar(10) [unique]
   cityId        integer
 }
-Flights
-sql
+```
+
+### Flights
+
+```sql
 Table Flight {
   flightId        integer     [primary key]
   airline         varchar(100)
@@ -64,8 +75,11 @@ Table Flight {
     (fromAirportId, toAirportId)
   }
 }
-Hotels & Rooms
-sql
+```
+
+### Hotels & Rooms
+
+```sql
 Table Hotel {
   hotelId     integer        [primary key]
   name        varchar(255)
@@ -82,8 +96,11 @@ Table Room {
   capacity     integer
   isAvailable  boolean
 }
-Booking Core
-sql
+```
+
+### Booking Core
+
+```sql
 Table Booking {
   bookingId    integer        [primary key]
   userId       integer
@@ -101,8 +118,11 @@ Table BookingItem {
   quantity        integer
   price           decimal(10,2)
 }
-Payment & Checkout
-sql
+```
+
+### Payment & Checkout
+
+```sql
 Table Payment {
   paymentId     integer        [primary key]
   bookingId     integer
@@ -112,8 +132,11 @@ Table Payment {
   amount        decimal(10,2)
   paidAt        timestamp
 }
-Favorites & Trips
-sql
+```
+
+### Favorites & Trips
+
+```sql
 Table Favorite {
   favoriteId   integer       [primary key]
   userId       integer
@@ -134,24 +157,27 @@ Table SavedTrip {
   hotelId      integer
   createdAt    timestamp
 }
-🔗 Foreign Key Relationships
-User & Role Management
+```
+
+### Foreign Key Relationships
+
+**User & Role Management:**
 UserRole.userId → User.userId
 
 UserRole.roleId → Role.roleId
 
-Geographic Data
+**Geographic Data:**
 Airport.cityId → City.cityId
 
-Flights
+**Flights:**
 Flight.fromAirportId → Airport.airportId
 
 Flight.toAirportId → Airport.airportId
 
-Hotels
+**Hotels:**
 Room.hotelId → Hotel.hotelId
 
-Booking System
+**Booking System:**
 Booking.userId → User.userId
 
 BookingItem.bookingId → Booking.bookingId
@@ -163,14 +189,14 @@ BookingItem.referenceId → Flight.flightId (when itemType = 'flight')
 
 BookingItem.referenceId → Room.roomId (when itemType = 'hotel')
 
-Favorites
+**Favorites:**
 Favorite.userId → User.userId
 
 Favorite.referenceId → Flight.flightId (when itemType = 'flight')
 
 Favorite.referenceId → Room.roomId (when itemType = 'hotel')
 
-Saved Trips
+**Saved Trips:**
 SavedTrip.userId → User.userId
 
 SavedTrip.flightId → Flight.flightId
