@@ -6,13 +6,19 @@
   - [Table of Contents](#table-of-contents)
   - [Key Features](#key-features)
     - [Feature 1: Flight Search \& Comparison](#feature-1-flight-search--comparison)
-    - [Overview](#overview)
+      - [Feature 1 Live Design Preview](#feature-1-live-design-preview)
     - [Feature 2: Hotel Browsing \& Booking](#feature-2-hotel-browsing--booking)
+      - [Feature 2 Live Design Preview](#feature-2-live-design-preview)
     - [Feature 3: Payment \& Checkout](#feature-3-payment--checkout)
+      - [Feature 3 Live Design Preview](#feature-3-live-design-preview)
     - [Feature 4: Notification System](#feature-4-notification-system)
+      - [Feature 4 Live Design Preview](#feature-4-live-design-preview)
     - [Feature 5: Favorites \& Saved Trips](#feature-5-favorites--saved-trips)
+      - [Feature 5 Live Design Preview](#feature-5-live-design-preview)
     - [Feature 6: Order History \& Booking Management](#feature-6-order-history--booking-management)
+      - [Feature 6 Live Design Preview](#feature-6-live-design-preview)
     - [Feature 7: Admin Dashboard](#feature-7-admin-dashboard)
+      - [Feature 7 Live Design Preview](#feature-7-live-design-preview)
   - [Database Documentation](#database-documentation)
   - [API Documentation](#api-documentation)
   - [System Requirements](#system-requirements)
@@ -25,7 +31,7 @@ This booking system is a comprehensive travel platform that enables users to sea
 
 ### Feature 1: Flight Search & Comparison
 
-### Overview
+#### Feature 1 Live Design Preview
 
 ![Flight Search Wireframe](./images/UI_Wireframes/Flight_Search_Comparison.png)
 *Fig 1.1 - Flight search interface with comparison panel*
@@ -82,6 +88,11 @@ Enables users to search for available flights between two destinations on specif
 
 ### Feature 2: Hotel Browsing & Booking
 
+#### Feature 2 Live Design Preview
+
+![Hotel Booking Wireframe](./images/UI_Wireframes/Hotel_Browsing_Booking.png)  
+*Fig 2.1 - Hotel listing with room selection modal*
+
 **Description:**  
 Allows users to explore available hotels based on location, travel dates, price, and rating, and to complete bookings securely through the platform.
 
@@ -123,6 +134,11 @@ Allows users to explore available hotels based on location, travel dates, price,
 
 ### Feature 3: Payment & Checkout
 
+#### Feature 3 Live Design Preview
+
+![Payment Wireframe](./images/UI_Wireframes/Payment_Checkout.png)  
+*Fig 3.1 - Multi-step checkout process with payment options*
+
 **Description:**  
 Handles secure and seamless checkout for flights, hotels, and rentals using multiple payment options and proper validation.
 
@@ -159,6 +175,11 @@ Handles secure and seamless checkout for flights, hotels, and rentals using mult
 - Sensitive payment data must not be stored locally
 
 ### Feature 4: Notification System
+
+#### Feature 4 Live Design Preview
+
+![Notifications Wireframe](./images/UI_Wireframes/Notification_System.png)  
+*Fig 4.1 - Notification center with filter options*
 
 **Description:**  
 Notifies users in real-time about booking updates, deals, and critical system alerts through multiple channels.
@@ -198,6 +219,11 @@ Notifies users in real-time about booking updates, deals, and critical system al
 
 ### Feature 5: Favorites & Saved Trips
 
+#### Feature 5 Live Design Preview
+
+![Favorites Wireframe](./images/UI_Wireframes/Favorites_Saved_Trips.png)  
+*Fig 5.1 - Saved items gallery with trip organizer*
+
 **Description:**  
 Enables users to save favorite destinations, airlines, hotels, or full trip plans for quicker access and future booking.
 
@@ -227,6 +253,13 @@ Enables users to save favorite destinations, airlines, hotels, or full trip plan
 - Automatically remove unavailable items after a set period
 
 ### Feature 6: Order History & Booking Management
+
+#### Feature 6 Live Design Preview
+
+![Order History Wireframe](./images/UI_Wireframes/Booking_History-01.png)  
+*Fig 6.1 - Timeline view of bookings with filter controls*
+
+---
 
 **Description:**  
 Provides users with access to their past and upcoming bookings, including the ability to view, modify, or cancel where applicable.
@@ -261,6 +294,11 @@ Provides users with access to their past and upcoming bookings, including the ab
 - Refund status must be tracked and displayed where applicable
 
 ### Feature 7: Admin Dashboard
+
+#### Feature 7 Live Design Preview
+
+![Admin Dashboard Wireframe](./images/UI_Wireframes/Admin_Dashboard-02.png)  
+*Fig 7.1 - Administrative analytics and user management*
 
 **Description:**  
 A centralized control panel for administrators to manage users, providers, bookings, content, and system analytics.
