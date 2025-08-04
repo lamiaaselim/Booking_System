@@ -202,3 +202,7 @@ SavedTrip.userId → User.userId
 SavedTrip.flightId → Flight.flightId
 
 SavedTrip.hotelId → Hotel.hotelId
+
+## Batabase Schema
+
+![Database Schema](./images/db-schema.png "DB Diagram")

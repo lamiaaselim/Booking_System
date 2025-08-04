@@ -13,6 +13,7 @@
     - [Feature 6: Order History \& Booking Management](#feature-6-order-history--booking-management)
     - [Feature 7: Admin Dashboard](#feature-7-admin-dashboard)
   - [Database Documentation](#database-documentation)
+  - [API Documentation](#api-documentation)
   - [System Requirements](#system-requirements)
   - [Getting Started](#getting-started)
   - [For Registered Users](#for-registered-users)
@@ -294,6 +295,11 @@ A centralized control panel for administrators to manage users, providers, booki
 
 For full database schema and relationships, see:  
 📂 [DB.md](./DB.md)  
+
+## API Documentation
+
+For full API Documentation, see:  
+📂 [API.md](./API.md)  
 
 ## System Requirements
 
