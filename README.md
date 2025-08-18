@@ -88,6 +88,9 @@ Enables users to search for available flights between two destinations on specif
 - Flights from blacklisted carriers should be excluded
 - Seat availability must be revalidated before proceeding to booking
 
+For Flow Diagram and Sequence Diagram see:  
+📂 [FeatureOne.md](./FeatureOne.md)  
+
 ### Feature 2: Hotel Browsing & Booking
 
 #### Feature 2 Live Design Preview
